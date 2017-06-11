@@ -1,0 +1,15 @@
+---
+baseURL: "https://spaces.work/"
+languageCode: "en-us"
+title: "Spaces"
+preserveTaxonomyNames: "true"
+params:
+  description: "Collection of awesome free spaces to work online."
+  author: "Wassim"
+  copyright: "Copyright © {year}."
+taxonomies:
+  city: "cities"
+  category: "categories"
+  speed: "speeds"
+  tag: "tags"
+---
