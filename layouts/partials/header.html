@@ -1,12 +1,12 @@
 <header class="banner">
-	<div class="container">
+	<div class="container-fluid">
 		{{ if .IsHome }}
 			<h1 class="site-title"><a href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a></h1>
 		{{ else }}
 			<a class="site-title" href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a>
 		{{ end }}	
 		{{ if .Site.Params.Description }}
-		<p class="site-tagline">{{ .Site.Params.Description }}</p>
+		<p class="site-description">{{ .Site.Params.Description }}</p>
 		{{ end }}
 		<nav class="nav-primary">
 		</nav>
