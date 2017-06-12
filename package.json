@@ -54,5 +54,7 @@
     "webpack-merge": "^4.1.0",
     "yargs": "^8.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "knacss": "^6.1.0"
+  }
 }

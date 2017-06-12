@@ -3173,6 +3173,10 @@ kind-of@^4.0.0:
   dependencies:
     is-buffer "^1.1.5"
 
+knacss@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/knacss/-/knacss-6.1.0.tgz#ebc189d593f4f38c747d469e92dc45683842112e"
+
 known-css-properties@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.2.0.tgz#899c94be368e55b42d7db8d5be7d73a4a4a41454"
