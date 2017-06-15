@@ -1,15 +1,22 @@
 ---
-baseURL: "https://spaces.work/"
+baseURL: "https://sockets.ext/"
+title: "Sockets"
+
 languageCode: "en-us"
-title: "Spaces"
-preserveTaxonomyNames: "true"
-params:
-  description: "Collection of awesome free spaces to work online."
-  author: "Wassim"
-  copyright: "Copyright © {year}."
+
+metaDataFormat: "yaml"
+
 taxonomies:
   city: "cities"
   category: "categories"
-  speed: "speeds"
+  speed-tag: "speed-tags"
   tag: "tags"
+  day: "days"
+
+preserveTaxonomyNames: true  
+
+params:
+  author: "Wassim Bourguiba"
+  description: "A list of awesome free spaces to work online in France."
+  copyright: "Copyright (c) {year}. Built with <a href=\"https://gohugo.io/\" title=\"Hugo\">Hugo</a> by <a href=\"https://wassim.site/\" title=\"Wassim\">Wassim</a>. View source code."
 ---
