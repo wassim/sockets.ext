@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ .Lang }}">
 	{{ partial "head.html" . }}
-	<body class="{{ .Kind }}">
+	<body id="body" class="{{ .Kind }}">
 		{{ partial "header.html" . }}
 		<div class="wrap container" role="document">
 			<div class="content">
@@ -12,5 +12,9 @@
 			</div>
 		</div>
 		{{ partial "footer.html" . }}
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+		<script src="{{ .Site.BaseURL }}scripts/main.js"></script>
 	</body>
 </html>	
