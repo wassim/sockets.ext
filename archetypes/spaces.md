@@ -4,17 +4,15 @@ date: ""
 location: ""
 cities: 
   - "lyon"
-  - "nyc"
   - "paris"
 categories:
-  - "cafe"
-  - "coffee shop"
+  - "café"
   - "restaurant"
-  - "shopping center"  
+  - "shopping-center" 
+  - "train-station" 
 password: ""
-down-speed: ""
-up-speed: ""
-speeds:
+speed: ""
+speed-tag:
   - "fast"
   - "moderate"
   - "slow"
@@ -22,5 +20,14 @@ tags:
   - "awesome"
   - "okay"
   - "bad" 
-lastmod: "" 
+updated: ""
+days:
+  - "monday"
+  - "tuesday"
+  - "wednesday"
+  - "thursday"
+  - "friday"
+  - "saturday"
+  - "sunday"
+hours: ""  
 ---
