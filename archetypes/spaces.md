@@ -12,7 +12,7 @@ categories:
   - "train-station" 
 password: ""
 speed: ""
-speed-tag:
+speed-tags:
   - "fast"
   - "moderate"
   - "slow"
