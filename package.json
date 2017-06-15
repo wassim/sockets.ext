@@ -1,18 +1,12 @@
 {
-  "name": "spaces.work",
-  "version": "1.0.0-alpha.1",
+  "name": "sockets.ext",
+  "version": "1.0.0-alpha.2",
   "author": "Wassim Bourguiba <wassimdotis@gmail.com>",
-  "homepage": "https://spaces.work/",
+  "homepage": "https://sockets.ext/",
   "private": true,
-  "repository": "git@github.com:wassim/spaces.work.git",
+  "repository": "git@github.com:wassim/sockets.ext.git",
   "license": "UNLICENSED",
-  "browserslist": [
-    "last 2 versions",
-    "android 4",
-    "opera 12"
-  ],
   "scripts": {
-    "build:prod": "webpack --progress -p --config resources/assets/build/webpack.config.js",
     "rmstatic": "rimraf static",
     "rmpublic": "rimraf public"
   },
@@ -20,39 +14,7 @@
     "node": ">= 6.9.0"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
-    "browser-sync": "^2.18.12",
-    "browsersync-webpack-plugin": "^0.5.3",
-    "bs-html-injector": "^3.0.3",
-    "buble-loader": "^0.4.1",
-    "clean-webpack-plugin": "^0.1.16",
-    "copy-globs-webpack-plugin": "^0.2.0",
-    "css-loader": "^0.28.4",
-    "cssnano": "^3.10.0",
-    "eslint": "^3.19.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-import": "^2.3.0",
-    "extract-text-webpack-plugin": "^2.1.2",
-    "file-loader": "^0.11.2",
-    "imagemin-mozjpeg": "^6.0.0",
-    "imagemin-webpack-plugin": "^1.4.4",
-    "node-sass": "^4.5.3",
-    "optimize-css-assets-webpack-plugin": "^2.0.0",
-    "postcss-loader": "^1.3.3",
-    "resolve-url-loader": "^2.0.2",
-    "rimraf": "^2.6.1",
-    "sass-loader": "^6.0.5",
-    "style-loader": "^0.18.2",
-    "stylelint": "^7.10.1",
-    "stylelint-config-standard": "^16.0.0",
-    "stylelint-webpack-plugin": "^0.5.1",
-    "url-loader": "^0.5.8",
-    "webpack": "^2.6.1",
-    "webpack-assets-manifest": "^0.7.0",
-    "webpack-dev-middleware": "^1.10.2",
-    "webpack-hot-middleware": "^2.18.0",
-    "webpack-merge": "^4.1.0",
-    "yargs": "^8.0.1"
+    "rimraf": "^2.6.1"
   },
   "dependencies": {
     "knacss": "^6.1.0"
