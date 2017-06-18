@@ -1,5 +1,7 @@
 {{ define "main" }}
+<div class="list grid-3-small-2 has-gutter">
 {{ range .Data.Pages }}
 	{{ .Render "li"  }}
 {{ end }}
+</div>
 {{ end }}

@@ -1,15 +1,36 @@
 <article class="space">
 	<header class="space-header">
 		<h2 class="space-name">{{ .Params.Name }}</h2>
-		<ul class="space-meta">
+		<ul class="list space-meta">
+			{{ range .Params.categories }}
+			<li class="space-category {{ . }}">{{ humanize . }}</li>
+			{{ end }}
 			<li class="space-location">{{ .Params.Location }}</li>
-			<li class="space-lastmod">{{ .Params.Lastmod }}</li>
 		</ul>	
 	</header>
 	<div class="space-content">
-		<ul class="space-details">
-			<li class="space-speed">{{ .Params.Speed }} Mbps</li>
-			<li class="space-password">{{ .Params.Password }}</li>
+		<ul class="list space-details">
+			<li class="space-speed" data-speed="wifi {{ range .Params.Speedrates }}{{ . }}{{ end }}">
+				<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="#151515" d="M15 6H8.4L10 1.3c.3-1-.9-1.8-1.7-1l-8 8C-.3 8.9.1 10 1 10h6.6L6 14.7c-.3 1 .9 1.8 1.7 1l8-8c.6-.6.2-1.7-.7-1.7z"/></svg>
+				{{ .Params.Speed }}Mbps <span>Mise à jour: {{ .Params.Updated }}</span>
+			</li>
+			<li class="space-password">
+				<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="#151515" d="M8 0C5.8 0 4 1.8 4 4v1H2c-.6 0-1 .4-1 1v9c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V6c0-.6-.4-1-1-1h-2V4c0-2.2-1.8-4-4-4zm1 11.7V13H7v-1.3c-.6-.3-1-1-1-1.7 0-1.1.9-2 2-2s2 .9 2 2c0 .7-.4 1.4-1 1.7zM10 5H6V4c0-1.1.9-2 2-2s2 .9 2 2v1z"/></svg>
+				{{ if .Params.Password }}
+				<span id="password">{{ .Params.Password }}</span> 
+				<button class="btn copy-btn" data-clipboard-target="#password">copier</button>
+				{{ else if .Params.Signup }}
+				Inscription requise
+				{{ else }}
+				Sans mot de passe
+				{{ end }}
+			</li>
+			<li class="space-date">
+				<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><g fill="#151515"><path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 14c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6z"/><path data-color="" d="M9 4H7v5h5V7H9"/></g></svg>
+				<span class="status"></span>
+				<span class="days">{{ range .Params.Days }}{{ . }}{{ end }}</span>
+				<span class="hours">{{ .Params.Hours }}</span>
+			</li>
 		</ul>	
 	</div>
 </article>
