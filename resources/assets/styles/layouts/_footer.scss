@@ -1,0 +1,16 @@
+.content-info {
+	padding: 5rem 0;
+
+	.copyright {
+		color: $gray-lighter;
+
+		a {
+			color: $gray-light;
+			border-bottom: 0.1rem solid $gray-lighter;
+
+			&:hover {
+				border-color: transparent;
+			}
+		}
+	}
+}

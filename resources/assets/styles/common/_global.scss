@@ -1,0 +1,17 @@
+a {
+	text-decoration: none;
+	transition: all ease-in-out .15s;
+}
+
+.container,
+.container-fluid {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: $container-padding;
+	padding-right: $container-padding;
+	width: 100%;
+}
+
+.container {
+	max-width: $container-max-width;
+}

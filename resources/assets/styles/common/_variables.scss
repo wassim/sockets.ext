@@ -1,0 +1,36 @@
+// grayscale
+$dark:									#151515;
+$dark-gray:							#263238;
+$gray:                  #455a64;
+$gray-light:						#607d8b;
+$gray-lighter:          #90a4ae;
+$gray-lightest:         #cfd8dc;
+
+// knacss variables
+$color1:								$dark;
+$color2:								#eceff1;
+$color5:								#7c4dff;
+
+// colors
+$border-color:          $color2;
+$slow-color:           	#ff6d00;
+$moderate-color:        #ffab00;
+$fast-color:         		#00c853;
+
+// containers
+$container-max-width:		121rem;
+$container-padding:			1.5rem;
+
+// tiny font sizes
+$base-font-size: 				1.2rem;
+$line-height:						1.65;
+$h2-size: 							1.8rem;
+
+// large font sizes
+$base-font-size-l: 			1.4rem;
+$h2-size-l: 						2rem;
+
+// font stacks
+$font-stack-monospace:  'Roboto Mono', consolas, courier, monospace;
+$font-stack-common:			$font-stack-monospace;
+$font-stack-headings:		$font-stack-common;

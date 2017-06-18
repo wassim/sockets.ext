@@ -1,0 +1,47 @@
+.banner {
+	margin-bottom: 5rem;
+	background-color: #263238;
+	box-shadow: 0 0 0.5rem rgba(0,0,0,.15);
+
+	.container-fluid {
+		@include respond-to("small-up") {
+			display: flex;
+			align-items: center;
+			height: 6rem;
+		}
+	}
+
+	.site-title {
+		display: flex;
+		align-items: center;
+		margin: 0;
+		height: 5rem;
+		font-size: 1.2rem;
+		font-weight: bold;
+		color: #fff;
+		border-bottom: 0.2rem solid rgba(255,255,255,0.4);
+
+		@include respond-to("small-up") {
+			border-bottom: 0;
+		}
+
+		a {
+			color: #fff;
+		}
+	}
+
+	.site-description {
+		display: none;
+		margin: 0 0 0 2rem;
+		font-size: 1.2rem;
+		color: #fff;
+
+		@include respond-to("medium-up") {
+			display: inline-block;
+		}
+	}
+
+	.search-field {
+		margin-left: auto;
+	}
+}
