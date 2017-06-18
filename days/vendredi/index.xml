@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vendredi on Sockets</title>
+    <link>https://sockets.fr/days/vendredi/</link>
+    <description>Recent content in Vendredi on Sockets</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright (c) {year}. Site construit avec &lt;a href=&#34;https://gohugo.io/&#34; title=&#34;Hugo&#34;&gt;Hugo&lt;/a&gt; par &lt;a href=&#34;https://wassim.site/&#34; title=&#34;Wassim&#34;&gt;Wassim&lt;/a&gt;. Voir le &lt;a href=&#34;https://github.com/wassim&#34; title=&#34;Voir le code source&#34;&gt;code source&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 16 Jun 2017 19:14:49 +0200</lastBuildDate>
+    
+	<atom:link href="https://sockets.fr/days/vendredi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>centre confluence</title>
+      <link>https://sockets.fr/spaces/lyon/centre-confluence/</link>
+      <pubDate>Fri, 16 Jun 2017 19:14:49 +0200</pubDate>
+      
+      <guid>https://sockets.fr/spaces/lyon/centre-confluence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gare partdieu</title>
+      <link>https://sockets.fr/spaces/lyon/gare-partdieu/</link>
+      <pubDate>Wed, 14 Jun 2017 13:57:37 +0200</pubDate>
+      
+      <guid>https://sockets.fr/spaces/lyon/gare-partdieu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>centre partdieu</title>
+      <link>https://sockets.fr/spaces/lyon/centre-partdieu/</link>
+      <pubDate>Tue, 13 Jun 2017 20:31:53 +0200</pubDate>
+      
+      <guid>https://sockets.fr/spaces/lyon/centre-partdieu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mcdonalds caluire</title>
+      <link>https://sockets.fr/spaces/lyon/mcdonalds-caluire/</link>
+      <pubDate>Tue, 13 Jun 2017 10:00:18 +0200</pubDate>
+      
+      <guid>https://sockets.fr/spaces/lyon/mcdonalds-caluire/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
