@@ -5,22 +5,23 @@ cities:
 - lyon
 date: 2017-06-13T10:00:18+02:00
 days:
-- sunday
-- monday
-- tuesday
-- wednesday
-- thursday
-- friday
-- saturday
-hours: "7:30am-1:30am"
+- dimanche
+- lundi
+- mardi
+- mercredi
+- jeudi
+- vendredi
+- samedi
+hours: "07h:30-01h:30"
 location: "Caluire"
 name: "McDonald's Caluire"
 password: ""
+signup: false
 speed: "6.50"
-speed-tag:
-- moderate
+speedrates:
+- lent
 tags:
-- okay
+- sympa
 title: mcdonalds caluire
 updated: "13.06.2017"
 ---

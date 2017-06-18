@@ -1,5 +1,5 @@
 +++
 type = "page"
 title = "home"
-description = "Collection of awesome free awesome spaces to work online"
+description = "Une liste d\'espaces gratuits pour travailler en ligne en France"
 +++

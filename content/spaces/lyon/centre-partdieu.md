@@ -1,25 +1,26 @@
 ---
 categories:
-- shopping-center
+- centre-commercial
 cities:
 - lyon
 date: 2017-06-13T20:31:53+02:00
 days:
-- monday
-- tuesday
-- wednesday
-- thursday
-- friday
-- saturday
+- lundi
+- mardi
+- mercredi
+- jeudi
+- vendredi
+- samedi
 location: "Part-Dieu"
 name: "La Part Dieu"
 password: ""
-speed: "10"
-speed-tag:
-- moderate
+signup: false
+speed: "5"
+speedrates:
+- lent
 tags:
-- awesome
-hours: "9:30am-8pm"
+- sympa
+hours: "09h:30-20h:00"
 title: centre partdieu
 updated: "13.06.2017"
 ---

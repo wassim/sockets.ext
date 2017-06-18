@@ -8,26 +8,27 @@ cities:
 categories:
   - "café"
   - "restaurant"
-  - "shopping-center" 
-  - "train-station" 
+  - "center-commercial" 
+  - "gare-de-train" 
 password: ""
+signup: false
 speed: ""
-speed-tags:
-  - "fast"
-  - "moderate"
-  - "slow"
+speedrates:
+  - "rapide"
+  - "moyen"
+  - "lent"
 tags:
-  - "awesome"
-  - "okay"
-  - "bad" 
+  - "super cool"
+  - "sympa"
+  - "mauvais" 
 updated: ""
 days:
-  - "monday"
-  - "tuesday"
-  - "wednesday"
-  - "thursday"
-  - "friday"
-  - "saturday"
-  - "sunday"
+  - "dimanche"
+  - "lundi"
+  - "mardi"
+  - "mercredi"
+  - "jeudi"
+  - "vendredi"
+  - "samedi"
 hours: ""  
 ---

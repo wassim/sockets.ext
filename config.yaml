@@ -1,15 +1,15 @@
 ---
-baseURL: "https://sockets.ext/"
+baseURL: "https://sockets.fr/"
 title: "Sockets"
 
-languageCode: "en-us"
+languageCode: "fr-fr"
 
 metaDataFormat: "yaml"
 
 taxonomies:
   city: "cities"
   category: "categories"
-  speed-tag: "speed-tags"
+  speedrate: "speedrates"
   tag: "tags"
   day: "days"
 
@@ -17,6 +17,6 @@ preserveTaxonomyNames: true
 
 params:
   author: "Wassim Bourguiba"
-  description: "A list of awesome free spaces to work online in France."
-  copyright: "Copyright (c) {year}. Built with <a href=\"https://gohugo.io/\" title=\"Hugo\">Hugo</a> by <a href=\"https://wassim.site/\" title=\"Wassim\">Wassim</a>. View source code."
+  description: "Collection d\'espaces gratuits pour travailler en ligne."
+  copyright: "Copyright (c) {year}. Site construit avec <a href=\"https://gohugo.io/\" title=\"Hugo\">Hugo</a> par <a href=\"https://wassim.site/\" title=\"Wassim\">Wassim</a>. Voir le <a href=\"https://github.com/wassim\" title=\"Voir le code source\">code source</a>."
 ---
