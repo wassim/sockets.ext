@@ -1,10 +1,10 @@
 {
-  "name": "sockets.ext",
-  "version": "1.0.0-alpha.2",
+  "name": "sockets.fr",
+  "version": "1.0.0-alpha.3",
   "author": "Wassim Bourguiba <wassimdotis@gmail.com>",
-  "homepage": "https://sockets.ext/",
+  "homepage": "https://sockets.fr/",
   "private": true,
-  "repository": "git@github.com:wassim/sockets.ext.git",
+  "repository": "git@github.com:wassim/sockets.fr.git",
   "license": "UNLICENSED",
   "scripts": {
     "rmstatic": "rimraf static",
